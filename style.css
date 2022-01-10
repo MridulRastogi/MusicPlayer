@@ -1,0 +1,70 @@
+#audioplayer{
+    width:80%;
+}
+
+#table_def{
+    font-size: large;
+    font-weight: 10; 
+    font-family:Georgia; 
+    color:indigo;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;  
+    font-weight:20; 
+    color:black;
+}
+
+tr{ 
+    border: 3px solid #000000;
+    font-family: cursive;
+}
+
+th{
+    border: 2px solid #000000;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-picture{
+    border-radius:50%;
+    width: 220px;
+    height:220px;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+    transition: all ease-in-out .2s;
+}
+
+.profile-picture:hover{
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
+}
+
+.top{
+    /*visual styling*/
+    text-decoration: none;
+    padding: 12px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;   
+    /**/
+    --offset: 50px; 
+
+    position: sticky;
+    bottom: 20px;    
+    margin-left: auto;  
+    margin-right: auto; 
+    place-self:inherit;
+    margin-top: calc(100vh + var(--offset));
+
+    display:table;
+    grid-template-columns: auto 0px; 
+}
