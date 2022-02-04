@@ -3,10 +3,10 @@
 }
 
 #table_def{
-    font-size: large;
+    font-size:medium;
     font-weight: 10; 
     font-family:Georgia; 
-    color:indigo;
+    color:white;
 }
 
 h1{
@@ -15,12 +15,12 @@ h1{
     font-weight:20; 
     color:black;
 }
-
+/*
 tr{ 
-    border: 3px solid #000000;
+    border: 0px solid #000000;
     font-family: cursive;
 }
-
+*/
 th{
     border: 2px solid #000000;
 }
@@ -36,8 +36,8 @@ th, td {
 
 .profile-picture{
     border-radius:50%;
-    width: 220px;
-    height:220px;
+    width: 250px;
+    height:250px;
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
     transition: all ease-in-out .2s;
 }
@@ -68,3 +68,22 @@ th, td {
     display:table;
     grid-template-columns: auto 0px; 
 }
+
+.desiredShape{
+    margin-left: auto;
+    margin-right: auto;    
+    width: 580px;
+    height: 300px;
+    
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius   : 50%;
+    border-bottom-right-radius: 50%;
+    background:rgb(169, 225, 15);
+    /*
+    border-start-end-radius: 50%;
+    border-start-start-radius: 50%;
+    border-end-end-radius: 50%;
+    border-end-start-radius: 50%;
+    */
+}   
